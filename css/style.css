@@ -1,0 +1,577 @@
+/*--------- CSS Design by Khokha Infotech -----------*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+h4 {
+  text-transform: uppercase;
+}
+
+body {
+  background: url(../images/background.jpg)
+}
+
+table {
+  table-layout: fixed;
+}
+
+table.tbborder td,
+th {
+  border: solid 1px #ccc;
+  padding: 5px;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+}
+
+/*  ----------- Inputs -----------*/
+input[type="text"] {
+
+  margin: 5px 0px;
+  border: solid 1px #999;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+input[type="password"] {
+
+  margin: 5px 0px;
+  border: solid 1px #999;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+input[type="submit"] {
+  text-align: left;
+}
+
+.btn {
+  background: none;
+}
+
+.btn:hover {
+  color: #fff;
+}
+
+.btnlogin {
+  background: #01933E;
+  color: #fff;
+  padding: 1px 5px;
+  border-radius: 5px;
+  border: none;
+  width: 160px;
+  margin-left: 20px;
+}
+
+.btnlogin:before {
+  font-family: "FontAwesome";
+  content: '\f007';
+  padding-left: 10px;
+}
+
+.btnlogin:hover {
+  background: #FF004E;
+}
+
+/*  ----------- End of Input -----------*/
+.table-data div {
+  border: solid 1px #E4E7E5;
+  min-height: 45px;
+  padding-top: 10px;
+  background: #fff;
+}
+
+header {}
+
+.content {
+  background: #fff;
+  padding: 20px;
+}
+
+.beta {
+  width: 100%;
+  font-size: 70px;
+  text-align: center;
+  opacity: 0.04;
+  padding: 10px 0px;
+}
+
+.logo {
+  padding: 0px;
+  width: 10%;
+}
+
+.top-title,
+.top-title-admin {
+  position: absolute;
+  left: 250px;
+  top: 15px;
+  color: #31318f;
+  font-size: 38px;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.top-sub-title {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.top-title-admin {
+  left: 400px;
+}
+
+.skill-india {
+  position: absolute;
+  right: 20px;
+  top: 72px;
+}
+
+.circle {
+  border-radius: 50%;
+  background: #F69B3F;
+  font-size: 35px;
+  padding: 10px;
+  color: #fff;
+  min-width: 45px;
+  min-height: 45px;
+  float: left;
+}
+
+.trades {
+  padding-left: 65px;
+}
+
+.trades ul {
+  padding: 10px;
+}
+
+.trades ul li {
+  list-style: none;
+}
+
+.trades ul li:before {
+  font-family: "FontAwesome";
+  content: '\f0a4';
+  padding-right: 5px;
+  color: #F69B3F;
+  line-height: 26px;
+}
+
+.trades .question {
+  font-size: 18px;
+}
+
+.trades .question:before {
+  font-size: 24px;
+  font-family: "FontAwesome";
+  content: '\f059';
+  padding-right: 5px;
+  color: #F69B3F;
+}
+
+.electrician-back {
+  background: url(../images/electrician-back.jpg);
+  background-size: cover;
+  padding: 10px;
+}
+
+.fitter-back {
+  background: url(../images/fitter-back.jpg);
+  background-size: cover;
+  padding: 10px;
+}
+
+.back {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+}
+
+.back:hover {
+  background: rgba(255, 255, 255, 1.0);
+}
+
+admission {
+  position: absolute;
+  top: 140px;
+  right: 91px;
+  width: 320px;
+}
+
+.admission {
+  padding-left: 0px;
+}
+
+.admission img {
+  width: 100%;
+  height: auto;
+  padding-top: 10px;
+}
+
+.connect {
+  background: #ccc;
+  color: #000;
+  padding: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.contact {
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-bottom: 3px solid white;
+  border-top: 3px solid white;
+  margin-left: 35px;
+  padding: 5px;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.address {
+  font-size: 15px;
+  line-height: 25px;
+}
+
+#latest-news {
+  border: 1px solid #888888;
+  padding: 10px;
+  margin-top: 5px;
+  box-shadow: 1px 1px 1px #888888
+}
+
+#latest-news ul li {
+  line-height: 25px;
+}
+
+#latest-news h3 {
+  padding: 0px;
+}
+
+/******* Footer *************/
+footer {
+  padding-top: 20px;
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: #A5FBF6;
+}
+
+.footer-bottom {
+  background: #ccc;
+  padding: 10px 0px;
+  color: #333;
+}
+
+.list-style li {
+  padding-left: 25px;
+  list-style: none;
+  line-height: 26px;
+}
+
+.list-style li:before {
+  font-family: "FontAwesome";
+  content: '\f0a4';
+  padding-right: 5px;
+  color: #FAB526;
+}
+
+.highlighted {
+  background: #FAB526;
+  margin: 15px 0px;
+  padding: 5px 0px;
+  color: #fff;
+}
+
+/**
+*  Dividers
+**/
+
+.hr {
+  height: 1px;
+  margin: 0;
+  background-color: #ebebeb;
+  border: none;
+  -webkit-background-clip: content-box;
+  background-clip: content-box;
+}
+
+.text-subline {
+  position: relative;
+  height: 1px;
+  padding: 0;
+  background: #C6BDBD;
+  margin-bottom: 22px;
+  border: none;
+}
+
+.text-subline:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1px;
+  width: 50px;
+  background: #A5FBF6;
+}
+
+.divider {
+  width: 68px;
+  height: 2px;
+  margin: 10px auto 60px;
+  background-color: transparent;
+  border: none;
+}
+
+.divider-vertical {
+  display: inline-block;
+  width: 1px;
+  height: 46px;
+  line-height: 46px;
+  margin: 0 20px;
+}
+
+.divider-left {
+  margin-left: 0;
+}
+
+.hr-gradient {
+  background-color: #fff;
+  background: -webkit-linear-gradient(left, white 35%, #d9d9d9 50%, white 65%);
+  background: -o-linear-gradient(left, white 35%, #d9d9d9 50%, white 65%);
+  background: -ms-linear-gradient(left, white 35%, #d9d9d9 50%, white 65%);
+  background: linear-gradient(to right, white 35%, #d9d9d9 50%, white 65%);
+}
+
+/* ----- Backgrounds -------------*/
+.bg-primary {
+  background-color: #F69B3F;
+  color: #fff;
+}
+
+.bg-alabaster {
+  background-color: #f9f9f9;
+}
+
+.bg-footer {
+  background: #31318f;
+  color: #fff;
+}
+
+.bg-white {
+  background: #fff;
+}
+
+/* ----- Sections -------------*/
+.section-20 {
+  padding: 20px;
+}
+
+.section-30 {
+  padding: 30px 0px;
+}
+
+.section-40 {
+  padding: 40px 0px;
+}
+
+.section-0 {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* ----- Tex Aligns -------------*/
+.text-center {
+  text-align: center;
+}
+
+/*--------- Insets -------------*/
+.inset-30 {
+  padding-left: 30px;
+}
+
+.swiper-nav {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .logo {
+    top: 0px;
+    left: 20px;
+    padding: 5px;
+  }
+
+  .top-title {
+    left: 102px;
+    font-size: 12px;
+    padding: 0px;
+    top: 0px;
+  }
+
+  .top-title span {
+    display: none;
+  }
+
+  .top-title:after {
+    content: 'ARYAN B.ED COLLEGE' !important;
+    letter-spacing: 0;
+  }
+
+  .top-sub-title {
+    display: none;
+  }
+
+  .admission {
+    margin-bottom: 10px;
+  }
+
+  .text-center img {
+    width: 280px;
+    height: auto;
+  }
+
+  .admission {
+    padding-left: 15px;
+  }
+
+  .trades {
+    padding-left: 55px;
+  }
+
+  .trades ul {
+    padding: 0px;
+  }
+
+  .padd-0 {
+    padding: 0px;
+  }
+
+  .skill-india {
+    display: none;
+  }
+
+  table {
+    font-size: 11px;
+  }
+
+  #library {
+    width: 100%;
+    padding-right: 0px
+  }
+
+  .list-style li {
+    padding-left: 0px;
+  }
+}
+
+/*managing-committee*/
+.gallery-image-box .col-md-3 img {
+  width: 100%;
+  height: auto;
+  border: 2px solid black;
+}
+
+.image-gallery-items:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.image-gallery-item .thumbnail {
+  display: block;
+  overflow: hidden;
+}
+
+
+#container {
+  align-items: center;
+  background: #333;
+  bottom: 0;
+  display: none;
+  left: 0;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#container img {
+  position: absolute;
+  /* Change to 'cover' to fill the space */
+  object-fit: contain;
+  /* Remove 'max-' to fill the space*/
+  max-height: 100%;
+  max-width: 100%;
+}
+
+#container .closebtn {
+  color: white;
+  cursor: pointer;
+  font-size: 35px;
+  padding: 30px;
+  position: fixed;
+  right: 15px;
+  top: 10px;
+  z-index: 1;
+}
+
+#container .closebtn:hover {
+  background: black;
+}
+.staff-column{
+  width: 100% !important;
+}
+.google-map {
+  padding-bottom: 50%;
+  position: relative;
+}
+
+.google-map iframe {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+.staff-table tr .first-row{
+  width: 8%;
+}
+.staff-table tr .secound-row{
+  width: 10%;
+}
+.staff-table tr .documents-button a{
+  background-color: #31318f;
+  padding: 20px 50px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 6px;
+}
+.staff-table tr .documents-button a:hover{
+  background-color: #4242b8;
+}

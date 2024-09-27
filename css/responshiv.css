@@ -1,0 +1,80 @@
+@media screen and (max-width: 1024px){
+    .links-tab{
+        text-align: left !important;
+    }
+}
+@media screen and (max-width: 320px){
+    .top-title {
+        left: 82px;
+        font-size: 11px;
+        padding: 0px;
+        top: 0px;
+      }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px){
+.contact-page .first{
+    padding: 10px 20px !important;
+}
+}
+@media only screen and (min-width: 375px) and (max-width: 425px){
+    .top-title{
+        font-size: 16px;
+        left: 80px;
+    }
+}
+@media only screen and (min-width: 425px) and (max-width: 768px){
+    .gallery-image-box .col-md-3{
+        width: 25% !important;
+    }
+    .footer-section {
+        width: 50%;
+    }
+    .staff-table tr .documents-button a{
+        padding: 15px 25px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 425px){
+    .row h2 u{
+        font-size: 16px;
+    }
+    .footer-section p a{
+        font-size: 10px;
+    }
+    .staff-table tr .secound-row img{
+        width: 100%;
+    }
+    .staff-table td{
+        font-size: 7px;
+    }
+    .staff-table tr .documents-button a{
+        background-color: unset;
+        padding: unset;
+        color: unset;
+        border-radius: unset;
+    }
+
+}
+@media only screen and (min-width: 767px) and (max-width: 769px){
+    #last-update{
+        height: 70px !important;
+        padding: 19px 10% !important;
+    }
+    .top-title, .top-title-admin{
+        left: 185px !important;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .top-title, .top-title-admin{
+        top: 0;
+        left: 300px;
+        font-size: 25px;
+    }
+    .top-sub-title{
+        display: none;
+    }
+    #last-update{
+        padding: 7px 10%;
+    }
+  }
